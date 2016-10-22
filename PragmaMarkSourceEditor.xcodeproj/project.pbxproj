@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62004F5D1DBB4DF7001B0A2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F5C1DBB4DF7001B0A2C /* AppDelegate.m */; };
+		62004F601DBB4DF7001B0A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F5F1DBB4DF7001B0A2C /* main.m */; };
+		62004F631DBB4DF7001B0A2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F621DBB4DF7001B0A2C /* ViewController.m */; };
+		62004F651DBB4DF7001B0A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62004F641DBB4DF7001B0A2C /* Assets.xcassets */; };
+		62004F681DBB4DF7001B0A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62004F661DBB4DF7001B0A2C /* Main.storyboard */; };
+		62004F731DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F721DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.m */; };
+		62004F7E1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F7D1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.m */; };
+		62004F921DBB4E1F001B0A2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62004F911DBB4E1F001B0A2C /* Cocoa.framework */; };
+		62004F981DBB4E1F001B0A2C /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F971DBB4E1F001B0A2C /* SourceEditorExtension.m */; };
+		62004F9B1DBB4E1F001B0A2C /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 62004F9A1DBB4E1F001B0A2C /* SourceEditorCommand.m */; };
+		62004F9F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 62004F8F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62004F6F1DBB4DF8001B0A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62004F501DBB4DF7001B0A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62004F571DBB4DF7001B0A2C;
+			remoteInfo = PragmaMarkSourceEditor;
+		};
+		62004F7A1DBB4DF8001B0A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62004F501DBB4DF7001B0A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62004F571DBB4DF7001B0A2C;
+			remoteInfo = PragmaMarkSourceEditor;
+		};
+		62004F9D1DBB4E1F001B0A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62004F501DBB4DF7001B0A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62004F8E1DBB4E1F001B0A2C;
+			remoteInfo = PragmaMarkPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62004FA31DBB4E1F001B0A2C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				62004F9F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62004F581DBB4DF7001B0A2C /* PragmaMarkSourceEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PragmaMarkSourceEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62004F5B1DBB4DF7001B0A2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62004F5C1DBB4DF7001B0A2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62004F5F1DBB4DF7001B0A2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62004F611DBB4DF7001B0A2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62004F621DBB4DF7001B0A2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62004F641DBB4DF7001B0A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62004F671DBB4DF7001B0A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62004F691DBB4DF7001B0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62004F6E1DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragmaMarkSourceEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62004F721DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PragmaMarkSourceEditorTests.m; sourceTree = "<group>"; };
+		62004F741DBB4DF8001B0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62004F791DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragmaMarkSourceEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62004F7D1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PragmaMarkSourceEditorUITests.m; sourceTree = "<group>"; };
+		62004F7F1DBB4DF8001B0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62004F8F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PragmaMarkPlugin.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		62004F911DBB4E1F001B0A2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		62004F951DBB4E1F001B0A2C /* PragmaMarkPlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PragmaMarkPlugin.entitlements; sourceTree = "<group>"; };
+		62004F961DBB4E1F001B0A2C /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		62004F971DBB4E1F001B0A2C /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		62004F991DBB4E1F001B0A2C /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		62004F9A1DBB4E1F001B0A2C /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		62004F9C1DBB4E1F001B0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62004F551DBB4DF7001B0A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F6B1DBB4DF8001B0A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F761DBB4DF8001B0A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F8C1DBB4E1F001B0A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F921DBB4E1F001B0A2C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62004F4F1DBB4DF7001B0A2C = {
+			isa = PBXGroup;
+			children = (
+				62004F5A1DBB4DF7001B0A2C /* PragmaMarkSourceEditor */,
+				62004F711DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests */,
+				62004F7C1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests */,
+				62004F931DBB4E1F001B0A2C /* PragmaMarkPlugin */,
+				62004F901DBB4E1F001B0A2C /* Frameworks */,
+				62004F591DBB4DF7001B0A2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62004F591DBB4DF7001B0A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62004F581DBB4DF7001B0A2C /* PragmaMarkSourceEditor.app */,
+				62004F6E1DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.xctest */,
+				62004F791DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.xctest */,
+				62004F8F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62004F5A1DBB4DF7001B0A2C /* PragmaMarkSourceEditor */ = {
+			isa = PBXGroup;
+			children = (
+				62004F5B1DBB4DF7001B0A2C /* AppDelegate.h */,
+				62004F5C1DBB4DF7001B0A2C /* AppDelegate.m */,
+				62004F611DBB4DF7001B0A2C /* ViewController.h */,
+				62004F621DBB4DF7001B0A2C /* ViewController.m */,
+				62004F641DBB4DF7001B0A2C /* Assets.xcassets */,
+				62004F661DBB4DF7001B0A2C /* Main.storyboard */,
+				62004F691DBB4DF7001B0A2C /* Info.plist */,
+				62004F5E1DBB4DF7001B0A2C /* Supporting Files */,
+			);
+			path = PragmaMarkSourceEditor;
+			sourceTree = "<group>";
+		};
+		62004F5E1DBB4DF7001B0A2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62004F5F1DBB4DF7001B0A2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62004F711DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				62004F721DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.m */,
+				62004F741DBB4DF8001B0A2C /* Info.plist */,
+			);
+			path = PragmaMarkSourceEditorTests;
+			sourceTree = "<group>";
+		};
+		62004F7C1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62004F7D1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.m */,
+				62004F7F1DBB4DF8001B0A2C /* Info.plist */,
+			);
+			path = PragmaMarkSourceEditorUITests;
+			sourceTree = "<group>";
+		};
+		62004F901DBB4E1F001B0A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62004F911DBB4E1F001B0A2C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62004F931DBB4E1F001B0A2C /* PragmaMarkPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				62004F961DBB4E1F001B0A2C /* SourceEditorExtension.h */,
+				62004F971DBB4E1F001B0A2C /* SourceEditorExtension.m */,
+				62004F991DBB4E1F001B0A2C /* SourceEditorCommand.h */,
+				62004F9A1DBB4E1F001B0A2C /* SourceEditorCommand.m */,
+				62004F9C1DBB4E1F001B0A2C /* Info.plist */,
+				62004F941DBB4E1F001B0A2C /* Supporting Files */,
+			);
+			path = PragmaMarkPlugin;
+			sourceTree = "<group>";
+		};
+		62004F941DBB4E1F001B0A2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62004F951DBB4E1F001B0A2C /* PragmaMarkPlugin.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62004F571DBB4DF7001B0A2C /* PragmaMarkSourceEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62004F821DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditor" */;
+			buildPhases = (
+				62004F541DBB4DF7001B0A2C /* Sources */,
+				62004F551DBB4DF7001B0A2C /* Frameworks */,
+				62004F561DBB4DF7001B0A2C /* Resources */,
+				62004FA31DBB4E1F001B0A2C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62004F9E1DBB4E1F001B0A2C /* PBXTargetDependency */,
+			);
+			name = PragmaMarkSourceEditor;
+			productName = PragmaMarkSourceEditor;
+			productReference = 62004F581DBB4DF7001B0A2C /* PragmaMarkSourceEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62004F6D1DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62004F851DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditorTests" */;
+			buildPhases = (
+				62004F6A1DBB4DF8001B0A2C /* Sources */,
+				62004F6B1DBB4DF8001B0A2C /* Frameworks */,
+				62004F6C1DBB4DF8001B0A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62004F701DBB4DF8001B0A2C /* PBXTargetDependency */,
+			);
+			name = PragmaMarkSourceEditorTests;
+			productName = PragmaMarkSourceEditorTests;
+			productReference = 62004F6E1DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62004F781DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62004F881DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditorUITests" */;
+			buildPhases = (
+				62004F751DBB4DF8001B0A2C /* Sources */,
+				62004F761DBB4DF8001B0A2C /* Frameworks */,
+				62004F771DBB4DF8001B0A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62004F7B1DBB4DF8001B0A2C /* PBXTargetDependency */,
+			);
+			name = PragmaMarkSourceEditorUITests;
+			productName = PragmaMarkSourceEditorUITests;
+			productReference = 62004F791DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		62004F8E1DBB4E1F001B0A2C /* PragmaMarkPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62004FA01DBB4E1F001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkPlugin" */;
+			buildPhases = (
+				62004F8B1DBB4E1F001B0A2C /* Sources */,
+				62004F8C1DBB4E1F001B0A2C /* Frameworks */,
+				62004F8D1DBB4E1F001B0A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PragmaMarkPlugin;
+			productName = PragmaMarkPlugin;
+			productReference = 62004F8F1DBB4E1F001B0A2C /* PragmaMarkPlugin.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62004F501DBB4DF7001B0A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = catch;
+				TargetAttributes = {
+					62004F571DBB4DF7001B0A2C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XWN8AWFG9J;
+						ProvisioningStyle = Automatic;
+					};
+					62004F6D1DBB4DF8001B0A2C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XWN8AWFG9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62004F571DBB4DF7001B0A2C;
+					};
+					62004F781DBB4DF8001B0A2C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XWN8AWFG9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62004F571DBB4DF7001B0A2C;
+					};
+					62004F8E1DBB4E1F001B0A2C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XWN8AWFG9J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62004F531DBB4DF7001B0A2C /* Build configuration list for PBXProject "PragmaMarkSourceEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62004F4F1DBB4DF7001B0A2C;
+			productRefGroup = 62004F591DBB4DF7001B0A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62004F571DBB4DF7001B0A2C /* PragmaMarkSourceEditor */,
+				62004F6D1DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests */,
+				62004F781DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests */,
+				62004F8E1DBB4E1F001B0A2C /* PragmaMarkPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62004F561DBB4DF7001B0A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F651DBB4DF7001B0A2C /* Assets.xcassets in Resources */,
+				62004F681DBB4DF7001B0A2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F6C1DBB4DF8001B0A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F771DBB4DF8001B0A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F8D1DBB4E1F001B0A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62004F541DBB4DF7001B0A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F631DBB4DF7001B0A2C /* ViewController.m in Sources */,
+				62004F601DBB4DF7001B0A2C /* main.m in Sources */,
+				62004F5D1DBB4DF7001B0A2C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F6A1DBB4DF8001B0A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F731DBB4DF8001B0A2C /* PragmaMarkSourceEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F751DBB4DF8001B0A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F7E1DBB4DF8001B0A2C /* PragmaMarkSourceEditorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62004F8B1DBB4E1F001B0A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62004F981DBB4E1F001B0A2C /* SourceEditorExtension.m in Sources */,
+				62004F9B1DBB4E1F001B0A2C /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62004F701DBB4DF8001B0A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62004F571DBB4DF7001B0A2C /* PragmaMarkSourceEditor */;
+			targetProxy = 62004F6F1DBB4DF8001B0A2C /* PBXContainerItemProxy */;
+		};
+		62004F7B1DBB4DF8001B0A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62004F571DBB4DF7001B0A2C /* PragmaMarkSourceEditor */;
+			targetProxy = 62004F7A1DBB4DF8001B0A2C /* PBXContainerItemProxy */;
+		};
+		62004F9E1DBB4E1F001B0A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62004F8E1DBB4E1F001B0A2C /* PragmaMarkPlugin */;
+			targetProxy = 62004F9D1DBB4E1F001B0A2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62004F661DBB4DF7001B0A2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62004F671DBB4DF7001B0A2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62004F801DBB4DF8001B0A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		62004F811DBB4DF8001B0A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		62004F831DBB4DF8001B0A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62004F841DBB4DF8001B0A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62004F861DBB4DF8001B0A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PragmaMarkSourceEditor.app/Contents/MacOS/PragmaMarkSourceEditor";
+			};
+			name = Debug;
+		};
+		62004F871DBB4DF8001B0A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PragmaMarkSourceEditor.app/Contents/MacOS/PragmaMarkSourceEditor";
+			};
+			name = Release;
+		};
+		62004F891DBB4DF8001B0A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PragmaMarkSourceEditor;
+			};
+			name = Debug;
+		};
+		62004F8A1DBB4DF8001B0A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkSourceEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PragmaMarkSourceEditor;
+			};
+			name = Release;
+		};
+		62004FA11DBB4E1F001B0A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PragmaMarkPlugin/PragmaMarkPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditor.PragmaMarkPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62004FA21DBB4E1F001B0A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PragmaMarkPlugin/PragmaMarkPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWN8AWFG9J;
+				INFOPLIST_FILE = PragmaMarkPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.PragmaMarkSourceEditor.PragmaMarkPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62004F531DBB4DF7001B0A2C /* Build configuration list for PBXProject "PragmaMarkSourceEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62004F801DBB4DF8001B0A2C /* Debug */,
+				62004F811DBB4DF8001B0A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62004F821DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62004F831DBB4DF8001B0A2C /* Debug */,
+				62004F841DBB4DF8001B0A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62004F851DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62004F861DBB4DF8001B0A2C /* Debug */,
+				62004F871DBB4DF8001B0A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62004F881DBB4DF8001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkSourceEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62004F891DBB4DF8001B0A2C /* Debug */,
+				62004F8A1DBB4DF8001B0A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62004FA01DBB4E1F001B0A2C /* Build configuration list for PBXNativeTarget "PragmaMarkPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62004FA11DBB4E1F001B0A2C /* Debug */,
+				62004FA21DBB4E1F001B0A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62004F501DBB4DF7001B0A2C /* Project object */;
+}
