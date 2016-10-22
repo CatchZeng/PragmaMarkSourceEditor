@@ -19,6 +19,6 @@
 
 ![editor](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/editor.png)
 
-#### 5.key bindings,then you can trigger it by command + d
+#### 5.key bindings,then you can trigger it by alt + command + p
 
 ![bindings](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/bindings.png)
