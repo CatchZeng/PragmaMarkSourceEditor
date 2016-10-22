@@ -5,20 +5,20 @@
 
 ## Usage
 
-#### 1.Clone/Download Project
+#### 1.Clone/Download Project.
 
-#### 2.Run Project(command+R)
+#### 2.Run Project(command+R).
 
 ![Run](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/run.jpg)
 
-#### 3.Open a project,such as Test project
+#### 3.Open a project,such as TestProject.
 
 ![test](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/test.jpg)
 
-#### 4.Click Editor menu, you can see it
+#### 4.You can see it by click Editor menu.
 
 ![editor](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/editor.jpg)
 
-#### 5.key bindings,then you can trigger it by alt + command + p
+#### 5.key bindings,then you can trigger it by alt + command + p.
 
 ![bindings](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/bindings.jpg)

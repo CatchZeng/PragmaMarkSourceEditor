@@ -8,7 +8,7 @@
 
 #import "SourceEditorCommand.h"
 
-static NSString *const insertPragmaMark = @"#pragma mark -- Life Cycle\n\n#pragma mark -- Getters & Setters\n\n#pragma mark -- Private Methods\n\n#pragma mark -- Override Methods\n\n#pragma mark -- Delegate\n";
+static NSString *const insertPragmaMark = @"#pragma mark -- Life Cycle\n\n#pragma mark -- Getters & Setters\n\n#pragma mark -- Public Methods\n\n#pragma mark -- Private Methods\n\n#pragma mark -- Override Methods\n\n#pragma mark -- Delegate\n";
 
 @implementation SourceEditorCommand
 
