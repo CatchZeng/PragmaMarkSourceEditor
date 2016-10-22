@@ -9,16 +9,16 @@
 
 #### 2.Run Project(command+R)
 
-![Run](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/run.png)
+![Run](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/run.jpg)
 
 #### 3.Open a project,such as Test project
 
-![test](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/test.png)
+![test](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/test.jpg)
 
 #### 4.Click Editor menu, you can see it
 
-![editor](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/editor.png)
+![editor](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/editor.jpg)
 
 #### 5.key bindings,then you can trigger it by alt + command + p
 
-![bindings](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/bindings.png)
+![bindings](https://github.com/CatchZeng/PragmaMarkSourceEditor/blob/master/bindings.jpg)
